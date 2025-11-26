@@ -77,7 +77,6 @@ cd css-utilities-doc
 
 - **[Card](./docs/card.md)** - Cards stylisées personnalisables
 - **[Scroll Snap](./docs/scroll-snap.md)** - Scroll avec snap points
-- **[Masonry](./docs/masonry.md)** - Layout en colonnes type Pinterest
 - **[Grid Wrapper](./docs/grid-wrapper.md)** - Grid automatique
 
 ### 🎯 Accessibility
