@@ -165,17 +165,6 @@ Ces utilitaires suivent les principes suivants :
 - **Accessibilité** : Conformité aux standards WCAG
 - **Modern CSS** : Utilisation des dernières spécifications CSS
 
-## 🌐 Compatibilité
-
-| Navigateur | Version minimale |
-|-----------|------------------|
-| Chrome    | 88+             |
-| Firefox   | 89+             |
-| Safari    | 14+             |
-| Edge      | 88+             |
-
-*Note : Certains utilitaires nécessitent des fonctionnalités CSS récentes*
-
 ## 🤝 Contribuer
 
 Les contributions sont les bienvenues ! Voici comment contribuer :
@@ -236,47 +225,6 @@ function App() {
 @import '@/utilities/aspect-ratio';
 </style>
 ```
-
-## 🏆 Top 5 des utilitaires les plus utilisés
-
-1. **Aspect Ratio** - Pour toutes vos images et vidéos
-2. **Fluid Space** - Spacing responsive moderne
-3. **Line Clamp** - Besoin très fréquent
-4. **Card** - Component de base
-5. **Stack** - Layout responsive facile
-
-## 📊 Roadmap
-
-- [x] Layout & Positionnement (5 utilitaires)
-- [x] Spacing & Sizing (3 utilitaires)
-- [x] Typography (3 utilitaires)
-- [x] Visual Effects (4 utilitaires)
-- [x] Animations & Transitions (3 utilitaires)
-- [x] Responsive Utilities (2 utilitaires)
-- [x] Components (5 utilitaires)
-- [x] Accessibility (1 utilitaire)
-- [ ] Form utilities
-- [ ] Color system
-- [ ] Advanced animations
-
-## 📄 Licence
-
-MIT License - Libre d'utilisation dans vos projets personnels et commerciaux.
-
-## 👤 Auteur
-
-**Votre Nom**
-- GitHub: [@votre-username](https://github.com/votre-username)
-- LinkedIn: [Votre Profil](https://linkedin.com/in/votre-profil)
-
-## ⭐ Support
-
-Si ce projet vous aide, n'hésitez pas à lui donner une ⭐ !
-
-## 📞 Contact
-
-Des questions ? Des suggestions ? Ouvrez une [issue](https://github.com/votre-username/css-utilities-doc/issues) !
-
 ---
 
 **Made with ❤️ for the web development community**
