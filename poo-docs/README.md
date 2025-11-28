@@ -34,19 +34,6 @@ Chaque document est structuré de manière à pouvoir être consulté indépenda
 - C#
 - PHP
 
-## 📝 Contribution
-
-Cette documentation est un travail en cours. Les sujets suivants sont prévus :
-
-- [ ] Les 4 piliers de la POO (Encapsulation, Héritage, Polymorphisme, Abstraction)
-- [ ] Les interfaces et classes abstraites
-- [ ] La composition vs l'héritage
-- [ ] Les design patterns (Singleton, Factory, Observer, Strategy, etc.)
-- [ ] SOLID principles
-- [ ] Dependency Injection
-- [ ] Les getters/setters et propriétés
-- [ ] Les exceptions et gestion d'erreurs en POO
-
 ## 📚 Ressources complémentaires
 
 - [TypeScript Handbook](https://www.typescriptlang.org/docs/handbook/2/classes.html)
