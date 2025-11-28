@@ -1,230 +1,98 @@
-# CSS Utilities Documentation
+# 📚 My-Doc
 
-> Documentation complète de classes CSS utilitaires réutilisables pour vos projets web
+> Votre bibliothèque personnelle de documentation développeur
 
-## 📋 À propos
+Un repository centralisé contenant guides, références et best practices pour le développement web et logiciel.
 
-Ce repository contient une collection de classes CSS utilitaires modernes et flexibles, conçues pour accélérer le développement front-end. Chaque utilitaire est documenté en détail avec des exemples d'utilisation, des cas d'usage et des bonnes pratiques.
+## 🎯 Objectif
 
-## 🎯 Objectifs
+Ce repository sert de base de connaissances personnelle pour :
 
-- **Réutilisabilité** : Classes CSS universelles utilisables dans n'importe quel projet
-- **Flexibilité** : Variables CSS personnalisables sans modification du code source
-- **Performance** : Code léger et optimisé
-- **Simplicité** : API intuitive et facile à mémoriser
-- **Documentation** : Chaque utilitaire est accompagné d'une documentation complète
+- 📖 Consolider les concepts techniques appris
+- 🔍 Avoir une référence rapide lors du développement
+- 💡 Partager des bonnes pratiques et patterns
+- 🎓 Créer une documentation réutilisable et évolutive
 
-## 🚀 Installation
-
-### Option 1 : Copier-coller
-Copiez simplement le code SCSS des utilitaires dont vous avez besoin dans votre projet.
-
-### Option 2 : Import depuis votre SCSS
-```scss
-// Dans votre styles.scss ou fichier principal
-@import 'utilities/aspect-ratio';
-@import 'utilities/fluid-space';
-// etc.
-```
-
-### Option 3 : Clone du repository
-```bash
-git clone https://github.com/votre-username/css-utilities-doc.git
-cd css-utilities-doc
-```
-
-## 📦 Utilitaires disponibles
-
-### 🎨 Layout & Positionnement
-
-- **[Aspect Ratio](./docs/aspect-ratio.md)** - Ratios d'images et conteneurs flexibles
-- **[Sticky Wrapper](./docs/sticky-wrapper.md)** - Headers/footers collants avec offset personnalisable
-- **[Center Absolute](./docs/center-absolute.md)** - Centrage absolu avec offsets
-- **[Split Screen](./docs/split.md)** - Écrans divisés avec ratios personnalisables
-- **[Media Object](./docs/media.md)** - Pattern média + contenu classique
-
-### 📐 Spacing & Sizing
-
-- **[Gap Wrapper](./docs/gap-wrapper.md)** - Espacement intelligent flex/grid
-- **[Fluid Space](./docs/fluid-space.md)** - Spacing responsive sans media queries
-- **[Container Fluid](./docs/container-fluid.md)** - Conteneurs avec padding intelligent
-
-### ✍️ Typography
-
-- **[Fluid Text](./docs/fluid-text.md)** - Typographie responsive fluide
-- **[Line Clamp](./docs/line-clamp.md)** - Truncate texte multi-lignes
-- **[Text Balance](./docs/text-balance.md)** - Titres équilibrés automatiquement
-
-### 🎭 Visual Effects
-
-- **[Shadow Wrapper](./docs/shadow-wrapper.md)** - Système d'ombres cohérent
-- **[Glass Effect](./docs/glass-effect.md)** - Effet glassmorphism moderne
-- **[Gradient Background](./docs/gradient-bg.md)** - Dégradés personnalisables
-- **[Rounded](./docs/rounded.md)** - Système de border-radius flexible
-
-### 🎬 Animations & Transitions
-
-- **[Transition](./docs/transition.md)** - Transitions CSS configurables
-- **[Hover Lift](./docs/hover-lift.md)** - Effets de survol élégants
-- **[Skeleton](./docs/skeleton.md)** - Loading skeletons animés
-
-### 📱 Responsive Utilities
-
-- **[Hide Mobile](./docs/hide-mobile.md)** - Show/hide responsive
-- **[Stack](./docs/stack.md)** - Layout flex responsive automatique
-
-### 🃏 Components
-
-- **[Card](./docs/card.md)** - Cards stylisées personnalisables
-- **[Scroll Snap](./docs/scroll-snap.md)** - Scroll avec snap points
-- **[Grid Wrapper](./docs/grid-wrapper.md)** - Grid automatique
-
-### 🎯 Accessibility
-
-- **[Focus Ring](./docs/focus-ring.md)** - Focus visible accessible
-
-## 📖 Structure du projet
+## 📂 Structure du repository
 
 ```
-css-utilities-doc/
-├── README.md                 # Ce fichier
-├── docs/                     # Documentation des utilitaires
-│   ├── aspect-ratio.md
-│   ├── sticky-wrapper.md
-│   ├── center-absolute.md
-│   ├── gap-wrapper.md
-│   ├── fluid-space.md
-│   ├── container-fluid.md
-│   ├── fluid-text.md
-│   ├── line-clamp.md
-│   ├── text-balance.md
-│   ├── shadow-wrapper.md
-│   ├── glass-effect.md
-│   ├── gradient-bg.md
-│   ├── rounded.md
-│   ├── transition.md
-│   ├── hover-lift.md
-│   ├── skeleton.md
-│   ├── hide-mobile.md
-│   ├── stack.md
-│   ├── card.md
-│   ├── media.md
-│   ├── split.md
-│   ├── scroll-snap.md
-│   ├── masonry.md
-│   └── focus-ring.md
+my-doc/
+├── poo-docs/              # Programmation Orientée Objet
+│   ├── README.md
+│   └── modificateurs-acces-poo.md
+├── frontend/              # Documentation Frontend (à venir)
+├── backend/               # Documentation Backend (à venir)
+├── architecture/          # Patterns & Architecture (à venir)
+├── devops/                # DevOps & CI/CD (à venir)
+└── README.md
 ```
 
-## 💡 Exemples rapides
+**Outils & Ecosystem :**
 
-### Aspect Ratio pour images
-```html
-<div class="aspect-ratio" style="--ratio: 16/9">
-  <img src="image.jpg" alt="Image 16:9">
-</div>
-```
+- Git & GitHub
+- Docker
+- PostgreSQL / MongoDB
+- n8n / Automation
+- Testing (Jest, Vitest, Cypress)
 
-### Texte fluide responsive
-```html
-<h1 class="fluid-text" style="--min-size: 1.5rem; --max-size: 3rem">
-  Titre responsive
-</h1>
-```
+## 📝 Convention de documentation
 
-### Card avec effet glassmorphism
-```html
-<div class="card glass-effect" style="--blur: 15px; --opacity: 0.9">
-  <h2>Contenu</h2>
-</div>
-```
+Chaque document suit cette structure :
 
-### Grid masonry
-```html
-<div class="masonry" style="--cols: 3; --gap: 1rem">
-  <div>Item 1</div>
-  <div>Item 2</div>
-  <div>Item 3</div>
-</div>
-```
+1. **Introduction** - Contexte et objectif
+2. **Concepts clés** - Définitions et explications
+3. **Exemples pratiques** - Code commenté et fonctionnel
+4. **Cas d'usage** - Situations réelles d'application
+5. **Bonnes pratiques** - Recommandations et pièges à éviter
+6. **Ressources complémentaires** - Liens utiles
 
-## 🛠️ Technologies
+## 🚀 Comment utiliser ce repo
 
-- **SCSS** - Préprocesseur CSS
-- **CSS Custom Properties** - Variables CSS natives
-- **CSS Grid** - Layout moderne
-- **Flexbox** - Layout flexible
-- **Modern CSS** - clamp(), min(), max(), aspect-ratio
+### Pour apprendre
 
-## 🎨 Principes de design
+Parcourez les différentes catégories et documents selon vos besoins d'apprentissage.
 
-Ces utilitaires suivent les principes suivants :
-- **Utility-first** : Classes réutilisables et composables
-- **CSS Variables** : Personnalisation sans recompilation
-- **Mobile-first** : Responsive par défaut
-- **Performance** : Code minimal et optimisé
-- **Accessibilité** : Conformité aux standards WCAG
-- **Modern CSS** : Utilisation des dernières spécifications CSS
+### Comme référence
 
-## 🤝 Contribuer
+Utilisez la recherche GitHub ou parcourez les dossiers pour trouver rapidement l'information recherchée.
 
-Les contributions sont les bienvenues ! Voici comment contribuer :
+### Pour contribuer
 
-1. **Fork** le projet
-2. **Créez** votre branche (`git checkout -b feature/nouvelle-utility`)
-3. **Committez** vos changements (`git commit -m 'Add: nouvelle utility pour X'`)
-4. **Pushez** vers la branche (`git push origin feature/nouvelle-utility`)
-5. **Ouvrez** une Pull Request
+1. Créez une nouvelle branche pour votre ajout
+2. Suivez la convention de documentation
+3. Ajoutez votre document dans la catégorie appropriée
+4. Mettez à jour le README de la catégorie
+5. Créez une pull request
 
-### Guidelines de contribution
+### Générales
 
-- Suivez la structure de documentation existante
-- Incluez des exemples d'utilisation
-- Testez la compatibilité sur les navigateurs modernes
-- Documentez tous les paramètres et variables
-- Ajoutez des cas d'usage pratiques
+- [MDN Web Docs](https://developer.mozilla.org/)
+- [Refactoring Guru - Design Patterns](https://refactoring.guru/)
+- [Clean Code - Robert C. Martin](https://www.amazon.fr/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882)
 
-## 🔧 Utilisation dans différents frameworks
+### Frontend
 
-### Angular
-```scss
-// styles.scss
-@import 'utilities/aspect-ratio';
-@import 'utilities/fluid-text';
-```
-```html
-<!-- component.html -->
-<div class="aspect-ratio" [style.--ratio]="'16/9'">
-  <img [src]="imageUrl" alt="Image">
-</div>
-```
+- [React Documentation](https://react.dev/)
+- [TypeScript Handbook](https://www.typescriptlang.org/docs/)
+- [Next.js Documentation](https://nextjs.org/docs)
 
-### React
-```jsx
-// App.jsx
-import './utilities.scss';
+### Backend
 
-function App() {
-  return (
-    <div className="aspect-ratio" style={{'--ratio': '16/9'}}>
-      <img src={imageUrl} alt="Image" />
-    </div>
-  );
-}
-```
+- [NestJS Documentation](https://docs.nestjs.com/)
+- [Node.js Best Practices](https://github.com/goldbergyoni/nodebestpractices)
 
-### Vue
-```vue
-<!-- Component.vue -->
-<template>
-  <div class="aspect-ratio" :style="{ '--ratio': '16/9' }">
-    <img :src="imageUrl" alt="Image">
-  </div>
-</template>
+## 🤝 Contribution
 
-<style lang="scss">
-@import '@/utilities/aspect-ratio';
-</style>
-```
+Cette documentation est un projet personnel mais ouvert aux suggestions. Si vous trouvez des erreurs ou avez des améliorations à proposer, n'hésitez pas à ouvrir une issue ou une pull request.
+
+## 📧 Contact
+
+Pour toute question ou suggestion : [Créer une issue](../../issues)
+
 ---
 
-**Made with ❤️ for the web development community**
+**Note :** Cette documentation évolue continuellement avec l'apprentissage et l'expérience.
+
+---
+
+_"La documentation est l'amour que vous laissez derrière vous pour votre futur vous-même."_ 💙
